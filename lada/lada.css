@@ -1,0 +1,46 @@
+.grantperrest, .grantper, .vestper, .vestperrest, .kalinaper, .kalinavtor, .nivalegend, .nivatravel, .xray, .largper, .largperrest, .priorper, .priorperrest {
+ transition: display 0.5s ease 0s;
+ display: none;
+ position: relative;
+ width: 65vw;
+ }
+
+#grantperrest:checked ~ .grantperrest {
+ display: block;
+ }
+#grantper:checked ~ .grantper {
+ display: block;
+ }
+#vestper:checked ~ .vestper {
+ display: block;
+ }
+#vestperrest:checked ~ .vestperrest {
+ display: block;
+ }
+#kalinaper:checked ~ .kalinaper {
+ display: block;
+ }
+#kalinavtor:checked ~ .kalinavtor {
+ display: block;
+ }
+#nivalegend:checked ~ .nivalegend {
+ display: block;
+ }
+#nivatravel:checked ~ .nivatravel {
+ display: block;
+ }
+#xray:checked ~ .xray {
+ display: block;
+ }
+#largper:checked ~ .largper {
+ display: block;
+ }
+#largperrest:checked ~ .largperrest {
+ display: block;
+ }
+#priorperrest:checked ~ .priorperrest {
+ display: block;
+ }
+#priorper:checked ~ .priorper {
+ display: block;
+ }

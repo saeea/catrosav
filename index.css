@@ -1,0 +1,337 @@
+body {
+ padding: 0%;
+ margin: 0%;
+ }
+a {
+ text-decoration: none;
+ color: inherit;
+ overflow: hidden;
+ width: inherit;
+ }
+a:hover {
+ color: inherit;
+ }
+a:visited {
+ color: inherit;
+ }
+.verh {
+ font-family: "Golos Text";
+ font-size: 3.5vw;
+ font-weight: 800;
+ color: #ffeeff;
+ background-color: #4422bd;
+ padding: 2.5vw;
+ }
+.sred {
+ display: inline-block;
+ font-family: "Golos Text";
+ font-size: 20px;
+ font-weight: 500;
+ color: #ffeeff;
+ background-color: #4422bd;
+ padding: 2.5vw;
+ }
+.levo {
+ display: block;
+ width: calc(100% - 250px);
+ height: auto;
+ }
+.stolb {
+ margin: 5px;
+ font-weight: 500;
+ position: relative;
+ left: 10px;
+ top: 0px;
+ display: table;
+ float: left;
+ text-align: center;
+ }
+.tapbar {
+ font-family: "Golos Text";
+ margin: 2.5px 10px;
+ height: auto;
+ }
+.tapbar-h {
+ display: table;
+ font-family: "Golos Text";
+ font-size: 1.8vw;
+ font-weight: 500;
+ }
+.tapbar-t {
+ font-family: "Golos Text";
+ font-size: 30px;
+ font-weight: 500;
+ background-color: #eeffff;
+ padding: 0.5vw 3vw;
+ }
+.knopka1 {
+ transition: 0.15s border-radius ease;
+ user-select: none;
+ font-size: 1.4em;
+ background-image: linear-gradient(90deg, #5599aa, #448899);
+ position: relative;
+ left: 0px;
+ float: left;
+ height: 100%;
+ padding: 0vw 1vw 0.2vw 1vw;
+ }
+.knopka1:hover {
+ color: #ffeeff;
+ background-image: linear-gradient(90deg, #7799bb, #6677bb);
+ border-radius: 1.5vw;
+ }
+.knopka2 {
+ transition: border-radius 0.3s ease;
+ user-select: none;
+ font-size: calc(15px + 1vw);
+ background-image: linear-gradient(90deg, #66aabb, #5599aa);
+ float: left;
+ padding: 10px;
+ margin: 5px 0px;
+ }
+.knopka2:hover {
+ background-image: linear-gradient(90deg, #7799bb, #9988bb);
+ border-radius: 15px;
+ }
+.knopka2:active {
+ border-radius: 25px;
+ }
+.knopka3 {
+ transition: 0.1s all linear;
+ user-select: none;
+ font-size: 3vw;
+ float: left;
+ top: 1vw;
+ left: 25vw;
+ padding: 1.5vw;
+ margin: 0.5vw 0vw 0.5vw 0vw;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: 0.4vw;
+ border-color: #cfcfee;
+ }
+.knopka3:hover {
+ border-color: #ababfe;
+ }
+.zaglav {
+ user-select: none;
+ padding: 0vw 1vw;
+ width: auto;
+ }
+.zaglav-bez-otstupa {
+ font-size: 23px;
+ user-select: none;
+ padding: 1vw;
+ margin: 0vw 0vw 0vw 27vw;
+ }
+.nadzaglavtext {
+ transform: scaleX(1.35);
+ transform-origin: 0 0;
+ }
+.notzaglavtext {
+ font-family: "Golos Text";
+ font-weight: 300;
+ padding: 20px;
+ }
+.zaglavtext {
+ display: contents;
+ font-size: 40px;
+ font-weight: 800;
+ position: relative;
+ left: 2vw;
+ }
+.podzaglavtext {
+ font-size: 28px; 
+ font-weight: 700;
+ margin: 1%;
+ }
+.mini-zaglav {
+ position: absolute;
+ top: 0.7em;
+ right: 1.7em;
+ font-size: 1.2em;
+ font-weight: 800;
+ transform: scaleX(1.2);
+ transform-origin: 0 0;
+ }
+.lenta {
+ display: inline;
+ font-family: "Golos Text";
+ font-size: calc(15px + 0.7vw);
+ font-weight: 800;
+ color: #220033;
+ margin: 0% 1% 7.5% 2%;
+ width: 97%;
+ }
+.palitka {
+ font-family: "Golos Text";
+ display: sticky;
+ font-size: 20px;
+ font-weight: 400;
+ text-align: left;
+ position: relative;
+ float: left;
+ width: 297px;
+ margin: 10px 7px 10px 20px;
+ padding: 10px;
+ border-radius: 30px;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.plitkaa {
+ font-family: "Golos Text";
+ display: inline;
+ font-size: 22px;
+ text-align: left;
+ position: relative;
+ float: left;
+ width: calc(60vw + 50px);
+ margin: 1vw 1vw 1vw 3vw;
+ padding: 0.4vw 0vw;
+ border-radius: 2vw;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.plitka {
+ transition: 0.15s all ease;
+ font-size: calc(15px + 0.4vw);
+ text-align: left;
+ float: left;
+ position: relative;
+ left: 3vw;
+ top: 0vw;
+ margin: 1vw;
+ border-radius: calc(1vw + 10px);
+ border-style: solid;
+ border-width: calc(6px + 0.4vw);
+ border-color: #dfdffe;
+ }
+.plitka:hover {
+ border-color: #ababfe;
+ border-radius: calc(1.1vw + 15px);
+ }
+.flitka {
+ font-family: "Golos Text";
+ display: inline;
+ font-size: 20px;
+ text-align: left;
+ position: relative;
+ float: left;
+ margin: 0.5vw 0.5vw 0.5vw 3vw;
+ padding: 7px;
+ border-radius: 2vw;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.plitka-sboku {
+ display: table;
+ font-family: "Golos Text";
+ font-size: 18px;
+ float: right;
+ width: calc(10vw + 10vw);
+ margin: 10px 10px 0px 0px;
+ padding: 15px;
+ border-radius: 30px;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.vplitke {
+ font-size: 1.8em;
+ padding: 0;
+ height: 3em;
+ width: 12em;
+ }
+.vplitkee {
+ display: inline;
+ font-size: 1.8em;
+ padding: 0;
+ }
+.plitkofot {
+ position: sticky;
+ float: left;
+ height: 3em;
+ padding: 0.1em 0.2em 0.1em 0.5em;
+ }
+.avafot {
+ float: left;
+ height: 7em;
+ margin: 0.1em 0.5em 0.1em 0.5em;
+ border-radius: 25px;
+ }
+.poloska {
+ border-color: #eeccff;
+ border-style: solid;
+ border-width: 10px;
+ }
+.glavramka {
+ border-color: #ffffff;
+ border-radius: 0.5vw;
+ border-style: solid;
+ border-width: 10px;
+ }
+.glavfot {
+ height: calc(5vw + 5em);
+ margin: 0.1em 0.2em 0.1em 0.5em;
+ border-radius: 25px;
+ }
+.podlozhka-f {
+ height: calc(5vw + 5.5em);
+ width: auto;
+ position: sticky;
+ float: left;
+ }
+.nabivka {
+ font-family: "Golos Text";
+ font-size: 18px;
+ font-weight: 300;
+ float: left;
+ }
+input[type="radio"] {
+ display: none;
+ }
+label {
+ border-radius: 0.5em;
+ border: 0.2vw solid #7799aa;
+ transition: all 0.2s ease-in-out;
+ margin: 1vw 0.2vw 1vw 2vw;
+ padding: 0.3vw 1vw;
+ position: sticky;
+ white-space: nowrap;
+ }
+label:hover {
+ border-radius: 0.8em;
+ }
+label:active {
+ border-color: #bbddff;
+ }
+input[type="radio"]:checked+label {
+ border-radius: 1.5vw;
+ background-color: #99aaca;
+ }
+.zvezdochka {
+ color: #338877;
+ font-size: 1.1em;
+ transition: 0.15s all ease;
+ }
+.zvezdnik {
+ display: none;
+ padding: 10px 0px;
+ float: left;
+ font-size: 16px;
+ }
+.zvezdochka:active {
+ color: #559944;
+ font-size: 1em;
+ background-color: #bbeeff;
+ }
+.zvezdochka:active + .zvezdnik {
+ display: block;
+ }
+.zvezdnik:hover {
+ display: block;
+ background-color: #bbeeff;
+ }
