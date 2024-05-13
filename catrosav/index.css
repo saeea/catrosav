@@ -1,0 +1,319 @@
+body {
+ padding: 0%;
+ margin: 0%;
+ }
+a {
+ text-decoration: none;
+ color: inherit;
+ overflow: hidden;
+ width: inherit;
+ }
+a:hover {
+ color: inherit;
+ }
+a:visited {
+ color: inherit;
+ }
+.verh {
+ font-family: "Golos Text";
+ font-size: 3.5vw;
+ font-weight: 800;
+ color: #ffeeff;
+ background-color: #4422bd;
+ padding: 2.5vw;
+ }
+.sred {
+ display: inline-block;
+ font-family: "Golos Text";
+ font-size: 20px;
+ font-weight: 500;
+ color: #ffeeff;
+ background-color: #4422bd;
+ padding: 2.5vw;
+ }
+.levo {
+ display: block;
+ width: calc(100% - 250px);
+ height: auto;
+ }
+.stolb {
+ margin: 5px;
+ font-weight: 500;
+ position: relative;
+ left: 10px;
+ top: 0px;
+ display: table;
+ float: left;
+ text-align: center;
+ }
+.tapbar {
+ font-family: "Golos Text";
+ width: 57%;
+ float: left;
+ height: 2.5em;
+ }
+.tapbar-h {
+ height: 2em;
+ font-family: "Golos Text";
+ font-size: 1.8vw;
+ font-weight: 500;
+ background-color: #5599aa;
+ }
+.tapbar-t {
+ font-family: "Golos Text";
+ font-size: 2vw;
+ font-weight: 500;
+ background-color: #eeffff;
+ padding: 0.5vw 3vw;
+ }
+.knopka1 {
+ transition: 0.15s color linear;
+ user-select: none;
+ font-size: 1.4em;
+ background-image: linear-gradient(90deg, #5599aa, #448899);
+ position: relative;
+ left: 0px;
+ float: left;
+ height: 100%;
+ padding: 0vw 1vw 0vw 1vw;
+ }
+.knopka1:hover {
+ color: #ffddff;
+ background-image: linear-gradient(90deg, #7799bb, #6677bb);
+ }
+.knopka2 {
+ transition: background-image 1s ease;
+ user-select: none;
+ font-size: 2vw;
+ background-image: linear-gradient(90deg, #66aabb, #5599aa);
+ float: left;
+ position: relative;
+ left: 2vw;
+ padding: 1vw;
+ margin: 0.5vw 0vw 0.5vw 0vw;
+ }
+.knopka2:hover {
+ background-image: linear-gradient(90deg, #7799bb, #9988bb);
+ }
+.knopka3 {
+ transition: 0.1s all linear;
+ user-select: none;
+ font-size: 3vw;
+ float: left;
+ top: 1vw;
+ left: 25vw;
+ padding: 1.5vw;
+ margin: 0.5vw 0vw 0.5vw 0vw;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: 0.4vw;
+ border-color: #cfcfee;
+ }
+.knopka3:hover {
+ border-color: #ababfe;
+ }
+.zaglav {
+ user-select: none;
+ width: auto;
+ padding: 0vw 1vw 1vw 3vw;
+ }
+.zaglav-bez-otstupa {
+ font-size: 23px;
+ user-select: none;
+ padding: 1vw;
+ margin: 0vw 0vw 0vw 27vw;
+ }
+.nadzaglavtext {
+ transform: scaleX(1.35);
+ transform-origin: 0 0;
+ }
+.notzaglavtext {
+ font-family: "Golos Text";
+ font-weight: 300;
+ padding: 1vw;
+ }
+.zaglavtext {
+ padding: 0.8vw;
+ display: contents;
+ font-size: 40px;
+ font-weight: 800;
+ }
+.podzaglavtext {
+ font-size: 28px; 
+ font-weight: 700;
+ margin: 1%;
+ }
+.mini-zaglav {
+ position: absolute;
+ top: 0.7em;
+ right: 1.7em;
+ font-size: 1.2em;
+ font-weight: 800;
+ transform: scaleX(1.2);
+ transform-origin: 0 0;
+ }
+.lenta {
+ display: inline;
+ font-family: "Golos Text";
+ font-size: 1.3vw;
+ font-weight: 800;
+ color: #220033;
+ margin: 0% 0% 7.5% 3%;
+ width: 100%;
+ }
+.palitka {
+ font-family: "Golos Text";
+ display: sticky;
+ font-size: 20px;
+ font-weight: 400;
+ text-align: left;
+ position: relative;
+ float: left;
+ width: 297px;
+ margin: 10px 7px 10px 20px;
+ padding: 10px;
+ border-radius: 30px;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.plitkaa {
+ font-family: "Golos Text";
+ display: inline;
+ font-size: 1.1em;
+ text-align: left;
+ position: relative;
+ float: left;
+ width: 65vw;
+ margin: 1vw 1vw 1vw 3vw;
+ padding: 0.4vw 0vw;
+ border-radius: 2vw;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.plitka {
+ transition: 0.1s border-color ease;
+ font-size: 1.1em;
+ text-align: left;
+ float: left;
+ position: relative;
+ left: 3vw;
+ top: 0vw;
+ margin: 1vw;
+ border-radius: 2vw;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.plitka:hover {
+ border-color: #ababfe;
+ }
+.flitka {
+ font-family: "Golos Text";
+ display: inline;
+ font-size: 20px;
+ text-align: left;
+ position: relative;
+ float: left;
+ margin: 0.5vw 0.5vw 0.5vw 3vw;
+ padding: 7px;
+ border-radius: 2vw;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.plitka-sboku {
+ font-family: "Golos Text";
+ font-size: 18px;
+ float: right;
+ width: 20vw;
+ margin: 10px 10px 0px 0px;
+ padding: 15px;
+ border-radius: 30px;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #dfdffe;
+ }
+.vplitke {
+ font-size: 1.8em;
+ padding: 0;
+ height: 3em;
+ width: 12em;
+ }
+.vplitkee {
+ display: inline;
+ font-size: 1.8em;
+ padding: 0;
+ }
+.plitkofot {
+ position: sticky;
+ float: left;
+ height: 3em;
+ padding: 0.1em 0.2em 0.1em 0.5em;
+ }
+.avafot {
+ float: left;
+ height: 7em;
+ margin: 0.1em 0.5em 0.1em 0.5em;
+ border-radius: 25px;
+ }
+.poloska {
+ border-color: #eeccff;
+ border-style: solid;
+ border-width: 10px;
+ }
+.glavramka {
+ border-color: #ffffff;
+ border-radius: 0.5vw;
+ border-style: solid;
+ border-width: 10px;
+ }
+.glavfot {
+ height: 10em;
+ margin: 0.1em 0.2em 0.1em 0.5em;
+ border-radius: 25px;
+ }
+.podlozhka-f {
+ height: 10.5em;
+ width: auto;
+ position: sticky;
+ float: left;
+ }
+.nabivka {
+ font-family: "Golos Text";
+ font-size: 18px;
+ font-weight: 300;
+ float: left;
+ }
+input[type="radio"] {
+ display: none;
+ }
+label {
+ display: inline;
+ border-radius: 0.5em;
+ border: 0.2vw solid #7799aa;
+ transition: all 0.3s ease-in-out;
+ margin: 0vw 0.2vw 1vw 2vw;
+ padding: 0.3vw 1vw;
+ position: sticky;
+ }
+input[type="radio"]:checked+label {
+ border-radius: 1.5vw;
+ background-color: #99aaca;
+ }
+.zvezdochka {
+ color: #339977;
+ }
+.zvezdnik {
+ display: none;
+ padding: 10px 0px;
+ float: left;
+ font-size: 16px;
+ }
+.zvezdochka:hover + .zvezdnik {
+ display: block;
+ }
+.zvezdnik:hover {
+ display: block;
+ }
