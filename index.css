@@ -10,6 +10,7 @@ a {
  }
 a:hover {
  color: inherit;
+ strong: true;
  }
 a:visited {
  color: inherit;
@@ -42,9 +43,40 @@ a:visited {
  position: relative;
  left: 10px;
  top: 0px;
- display: table;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
  float: left;
  text-align: center;
+ }
+.stolbec {
+ margin: 5px;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.7vw;
+ position: relative;
+ left: 10px;
+ top: 0px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ float: left;
+ text-align: center;
+ width: 75px;
+ }
+.stolbik {
+ background-color: #eeffff;
+ line-height: 0.33vw;
+ color: #4422bd;
+ padding: calc(2px + 0.2vw);
+ font-size: 14px;
+ width: 50px;
+ }
+.not-stolbik {
+ line-height: 0.33vw;
+ color: #eeffff;
+ padding: calc(2px + 0.2vw);
+ font-size: calc(7px + 0.5vw);
  }
 .tapbar {
  font-family: "Golos Text";
@@ -166,8 +198,9 @@ a:visited {
  }
 .palitka {
  font-family: "Golos Text";
- display: sticky;
- font-size: 20px;
+ display: table;
+ height: calc(145px + 15.5vw);
+ font-size: calc(10px + 1vw);
  font-weight: 400;
  text-align: left;
  position: relative;
@@ -175,9 +208,9 @@ a:visited {
  width: 297px;
  margin: 10px 7px 10px 20px;
  padding: 10px;
- border-radius: 30px;
+ border-radius: calc(1vw + 20px);
  border-style: solid;
- border-width: 10px;
+ border-width: calc(5px + 0.5vw);
  border-color: #dfdffe;
  }
 .plitkaa {
@@ -296,15 +329,21 @@ a:visited {
  }
 input[type="radio"] {
  display: none;
+ margin: calc(4px + 0.4vw);
+ }
+.labeler {
+ display: table;
+ position: sticky;
  }
 label {
  border-radius: 0.5em;
  border: 0.2vw solid #7799aa;
  transition: all 0.2s ease-in-out;
- margin: calc(4px + 0.4vw);
+ margin: calc(2px + 0.2vw) calc(3px + 0.4vw);
  padding: 0.3vw 1vw;
  position: sticky;
  white-space: nowrap;
+ display: inline-block;
  }
 label:hover {
  border-radius: 0.8em;
